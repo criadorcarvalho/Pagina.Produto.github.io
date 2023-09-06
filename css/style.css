@@ -39,7 +39,7 @@ h2{
 }
 
 .logo #header-img{
-    width: 200px;
+    width: 270px;
     margin: 10px 15px;
 }
 
@@ -51,15 +51,15 @@ h2{
 }
 
 .nav-link{
-    margin: 8px;
-    padding-top: 33px;
-}
-
-.nav-link a{
     font-weight: 300;
     font-size: 22px;
     text-transform: capitalize;
     color: hsla(0, 0%, 0%, 0.822);
+}
+
+.link li{
+    margin: 8px;
+    padding-top: 3px;
 }
 
 .main{
@@ -162,8 +162,8 @@ form input[type=submit]{
     border: 1px solid #ccc;
 }
 
-.img,img{
-    width: 210px;
+div.img,img{
+    width: 100px;
     text-align: center;
 }
 
@@ -176,7 +176,7 @@ form input[type=submit]{
     font-size: 30px;
     font-weight: 300;
     text-transform: capitalize;
-
+    padding-bottom: 20px;
 }
 
 .paragrafo-main{
@@ -229,6 +229,15 @@ form input[type=submit]{
     margin-bottom: 80px;
     
 }
+
+.container-preco h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
 
 .container-preco .preco{
     width: 400px;
